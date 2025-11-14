@@ -86,3 +86,19 @@ a:hover {
   color: #555;
   margin-top: 10px;
 }
+.fantasy-shame-stacked {
+  display: flex;
+  flex-direction: column; /* Stacks the items vertically */
+  align-items: center; /* Centers them on the page */
+  gap: 25px; /* Adds space between the two images */
+  margin-top: 20px;
+}
+
+.fantasy-shame-stacked img {
+  max-width: 80%; /* Makes the image responsive, up to 80% of the container */
+  height: auto;
+  border: 2px solid #ddd; /* A simple border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+}
+
